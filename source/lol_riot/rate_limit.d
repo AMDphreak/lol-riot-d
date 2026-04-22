@@ -283,3 +283,14 @@ TokenBucket riotProductionBucket()
 {
 	return new TokenBucket(500, 50.0);
 }
+
+///
+unittest
+{
+	auto t = makeRiotRequestLimiter(RiotRateLimitConfig.development());
+	assert(t !is null);
+	auto n = makeRiotRequestLimiter(RiotRateLimitConfig.unthrottled());
+	assert(n !is null);
+	auto l = makeRiotRequestLimiter(RiotRateLimitConfig.leaky(10));
+	assert(l !is null);
+}
