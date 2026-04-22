@@ -1,0 +1,27 @@
+# DUB
+.dub/
+dub.selections.json
+
+# Build
+lol-riot-d-test-unittest.exe
+*-test-unittest
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.pdb
+*.ilk
+__dummy.html
+docs.json
+
+# Tools / IDEs
+*.sw[po]
+*~
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,20 @@
+name "lol-riot-d"
+description "League of Legends: Riot Web API and LCU (local) client, requests-based, concurrent helpers, and pluggable rate limits."
+version "0.1.0"
+authors "AMDphreak"
+license "MIT"
+copyright "Copyright © 2026"
+targetType "library"
+importPaths "source"
+sourcePaths "source"
+
+dependency "requests" version="~>2.2.0"
+dependency "asdf" version="~>0.7.0"
+
+configuration "library" {
+	targetType "library"
+}
+
+configuration "unittest" {
+	targetType "library"
+}
