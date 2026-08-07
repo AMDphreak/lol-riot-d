@@ -1,19 +1,19 @@
 <a id="readme-top"></a>
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
 <div align="center">
+  <a href="https://github.com/AMDphreak/lol-riot-d/graphs/contributors"><img src="https://img.shields.io/github/contributors/AMDphreak/lol-riot-d.svg?style=for-the-badge" alt="Contributors"></a>
+  <a href="https://github.com/AMDphreak/lol-riot-d/network/members"><img src="https://img.shields.io/github/forks/AMDphreak/lol-riot-d.svg?style=for-the-badge" alt="Forks"></a>
+  <a href="https://github.com/AMDphreak/lol-riot-d/stargazers"><img src="https://img.shields.io/github/stars/AMDphreak/lol-riot-d.svg?style=for-the-badge" alt="Stargazers"></a>
+  <a href="https://github.com/AMDphreak/lol-riot-d/issues"><img src="https://img.shields.io/github/issues/AMDphreak/lol-riot-d.svg?style=for-the-badge" alt="Issues"></a>
   <h1>lol-riot-d</h1>
   <p>D: Riot Web API + LCU (lol-riot-d)</p>
   <p>
     <a href="https://github.com/AMDphreak/lol-riot-d/issues">Report Bug</a>
-    ·
+    &middot;
     <a href="https://github.com/AMDphreak/lol-riot-d/issues">Request Feature</a>
   </p>
+
 </div>
+
 
 <details>
   <summary>Table of Contents</summary>
@@ -102,12 +102,3 @@ Site: [https://ryanjohnson.dev](https://ryanjohnson.dev)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/AMDphreak/lol-riot-d.svg?style=for-the-badge
-[contributors-url]: https://github.com/AMDphreak/lol-riot-d/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/AMDphreak/lol-riot-d.svg?style=for-the-badge
-[forks-url]: https://github.com/AMDphreak/lol-riot-d/network/members
-[stars-shield]: https://img.shields.io/github/stars/AMDphreak/lol-riot-d.svg?style=for-the-badge
-[stars-url]: https://github.com/AMDphreak/lol-riot-d/stargazers
-[issues-shield]: https://img.shields.io/github/issues/AMDphreak/lol-riot-d.svg?style=for-the-badge
-[issues-url]: https://github.com/AMDphreak/lol-riot-d/issues
