@@ -28,10 +28,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up D
-        uses: dlang-community/setup-dlang@v1
+        uses: dlang-community/setup-dlang@v2
         with:
           compiler: ${{ matrix.compiler }}
 
@@ -45,8 +45,8 @@ jobs:
     if: startsWith(github.ref, 'refs/tags/v')
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: dlang-community/setup-dlang@v1
+      - uses: actions/checkout@v7
+      - uses: dlang-community/setup-dlang@v2
         with:
           compiler: ldc-latest
       - run: dub test
